@@ -2,6 +2,7 @@ SELECT
     marca, 
     SUM(cantidad_vendida) AS total_unidades,
     SUM(precio) AS total_ventas_valor
-FROM `tu_proyecto.tu_dataset.tu_tabla`
+FROM analisis-de-datos-portafolio.analisis_de_datos_portafolio.telefonos_limpios
 GROUP BY marca
 ORDER BY total_unidades DESC;
+--agrupar por marcas, unidades vendidas y promedio.
