@@ -6,3 +6,4 @@ FROM analisis-de-datos-portafolio.analisis_de_datos_portafolio.telefonos_limpios
 GROUP BY marca
 ORDER BY total_unidades DESC;
 --agrupar por marcas, unidades vendidas y promedio.
+https://lookerstudio.google.com/s/kTzsqKjQ8SE
